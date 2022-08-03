@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+
+.card {
+    height: 596px;
+    width: 350px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+.card .img {
+    background-image: url("images/image-equilibrium.jpg");
+    height: 302px;
+    width: 302px;
+    background-size: contain;
+    margin: auto;
+}
+
+.card .info {
+    margin: 25px;
+    font-size: 1em;
+}
+.info h1 {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.info p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.4em;
+    color: rgba(255, 255, 255, 0.767);
+    margin-bottom: 25px;
+}
+
+.info .price {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.541);
+}
+.eth p .icon {
+    display: inline-block;
+    background-image: url("images/icon-ethereum.svg");
+    width: 11px;
+    height: 18px;
+}
+.time p .icon {
+    display: inline-block;
+    background-image: url("images/icon-clock.svg");
+    width: 17px;
+    height: 17px;
+}
+
+.card .creator {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+}
+.creator .icon {
+    display: inline-block;
+    background-image: url("images/image-avatar.png");
+    background-size: contain;
+    height: 33px;
+    width: 33px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+.creator p {
+    color: rgba(255, 255, 255, 0.479);
+}
+.creator .name {
+    color: white;
+}
